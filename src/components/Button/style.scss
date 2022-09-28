@@ -1,0 +1,76 @@
+:root {
+   --primary: #7780A1;
+   --warning:#060714;
+   --white: #fff;
+   --dark: #000;
+   --bgFour:  #CAC9F1;
+   --bgThree:  #221FA1;
+   --bgTwo: #4542CF;
+   --bgOne:#3E3CCE;
+}
+
+.btn{
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    border-radius: 12px;
+    cursor:pointer;
+    transition: 0.1s ease;
+    margin-right: 2px;
+}
+
+
+
+.btn--One--outline{
+    background-color: transparent;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+}
+.btn--One--outline:hover{
+    background-color: var(--bgOne);
+    color: var(--white);
+    border: 2px solid transparent;
+}
+.btn--Two--outline{
+    background-color: transparent;
+    color: var(--primary);
+    border: 2px solid var(--warning);
+}
+.btn--Two--outline:hover{
+    background-color: var(--bgTwo);
+    color: var(--white);
+    border: 2px solid transparent;
+}
+.btn--Three--outline{
+    background-color: transparent;
+    color: var(--warning);
+    border: 2px solid var(--warning);
+}
+.btn--Three--outline:hover{
+    background-color: var(--bgThree);
+    color: var(--white);
+    border: 2px solid transparent;
+}
+.btn--Four--outline{
+    background-color: transparent;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+}
+.btn--Four--outline:hover{
+    background-color: var(--bgFour);
+    color: var(--white);
+    border: 2px solid transparent;
+}
+
+.btn--large{
+    padding: 16px 162px;
+    font-size: 16px;
+}
+.btn--medium{
+    padding: 16px 135px;
+    font-size: 16px;
+}
+.btn--small{
+    padding: 16px 24px;
+    font-size: 16px;
+}
+
